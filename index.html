@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shorcut icon" type="x-icon" href="3.jpg">
+    <meta name="viewport" content="width-device width, initial scale-1.0">
+    <script src="https://kit.fontawesome.com/49f322cff2.js" crossorigin="anonymous"></script>
+    <title>Mobile Legend-Application</title>
+</head>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'outfit';
+    background-image: url('Ml.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .container{
+    border: 0.2px solid #ffffff;
+    margin-top:5px;
+    padding: 50px 10px;
+    border-radius: 20px;
+  }
+  .contact-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+ .contact-center{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 20px;
+ }
+ .contact-center-title h2{
+   font-weight: 600;
+   color: #ffffff;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 5px;
+   text-shadow:1px 1px rgba(255,0,0,.75);
+ }
+ .contact-center-title hr{
+   border: none;
+   width: 100%;
+   height: 5px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-bottom: 20px;
+ }
+ .contact-inputs{
+   width: 1000px;
+   padding: 30px 10px;
+   border: 1px solid #000;
+   outline: none;
+   padding-left: 40px;
+   font-weight: 500;
+   color: #666;
+   border-radius: 50px;
+   margin-top:30px;
+ }
+ .contact-center textarea{
+   height: 140px;
+   padding-top: 15px;
+   border-radius:20px;
+ }
+ .contact-inputs:focus{
+   border: 2px solid #678;
+ }
+ .contact-inputs::placeholder{
+   color:#000000;
+ }
+ .contact-center button{
+   display: flex;
+   align-items: center;
+   padding: 15px;
+   font-size: 16px;
+   color: #ffffff ;
+   gap: 10px;
+   border: none;
+   border-radius: 50px;
+   background: linear-gradient(270deg,#ff994f,#fa6d86);
+   cursor: pointer;
+ }
+ @media (max-width:500px){
+   .contact-inputs{
+     width:80vw;
+   }
+ }
+ h6{
+   color:#fff;
+   font-size: 3px;
+   text-align: center;
+ }
+ h1{
+   color: #fff;
+   font-size: 20px;
+   text-align: center;
+ }
+ h4{
+   color: #fff;
+   font-size: 13px;
+   margin-left:3px;
+   margin-top: 20px;
+   text-shadow: 1px 1px rgba(255,0,0,.75);
+ }
+ .fa-circle-xmark{
+   color: red;
+ }
+ .box{
+   border: 1px solid #a9a9a9;
+   margin-top:3px;
+   padding:10px 10px;
+   border-radius: 20px;
+ }
+ h3{
+   color: #fff;
+   text-align: center;
+   text-shadow: 1px 1px rgba(255,0,0,.75);
+ }
+
+</style>
+<body>
+<div class="container">
+  <h1>Rules <i class="fa-solid fa-circle-xmark"></i></h1>
+  <hr>
+  <h4>1. **Teamwork is Key**: Coordinate with your team, communicate effectively, and work together to achieve victory.
+<br>
+<br>
+2. **Respect Your Teammates**: Treat your teammates with respect and avoid toxic behavior or harassment.
+<br>
+<br>
+3. **Know Your Role**: Understand the role of your hero and fulfill your duties accordingly. Whether you're a tank, marksman, mage, support, or assassin, play to your strengths.
+<br>
+<br>
+4. **Map Awareness**: Keep an eye on the mini-map to track enemy movements, objectives, and potential ganks.
+<br>
+<br>
+5. **Farm Efficiently**: Prioritize farming to level up and gain gold, but also be ready to assist teammates when needed.
+<br>
+<br>
+6. **Objective Control**: Secure objectives such as turrets, jungle monsters, and the Lord or Turtle to gain an advantage for your team.
+<br>
+<br>
+7. **Itemization**: Build items that complement your hero's strengths and counter the enemy team's composition.
+<br>
+<br>
+8. **Stay Alive**: Avoid unnecessary deaths as each death gives the enemy team an advantage in gold and experience.
+<br>
+<br>
+9. **Adaptability**: Be flexible and willing to adjust your strategy based on the flow of the game and your team's needs. 
+<br>
+<br>
+10. **Never Surrender**: Keep fighting until the end. Comebacks are always possible, and surrendering prematurely can cost you the game.
+<br>
+<br>
+ After You Read This Please Fill The Box...</h4>
+</div>
+    <div class="contact-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-center">
+        <div class="contact-center-title">
+          <h2>MLBB SQUAD APPLICATION</h2>
+          <hr>
+          <input type="hidden" name="access_key" value="778050c7-9dfe-43d6-94e1-6db2b8c583b7">
+
+          <input type="text" name="Rank" placeholder="Your Rank" class="contact-inputs" required>
+           <input type="number" name="Id" placeholder="Your Id" class="contact-inputs" required>
+           <br>
+            <textarea name="Message..." placeholder="Put A Message Why are You want to Join" class="contact-inputs"></textarea>
+            <br>
+            <button type="submit">Submit   <i class="fa-solid fa-arrow-right" class="arrow"></i></button>
+            <div class="box">
+              <h3>Thanks For Joining My Squad</h3>
+            </div>
+        </div>
+      </form>
+    </div>
+</body>
+</html>
